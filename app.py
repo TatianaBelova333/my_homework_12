@@ -33,4 +33,3 @@ def static_dir(path):
 
 
 app.run()
-
