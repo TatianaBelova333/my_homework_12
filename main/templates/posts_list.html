@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Все посты найденные по запросу {{user_input}}</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+<main>
+
+    <a href="/" class="link">Назад</a>
+
+    <h2>Посты по запросу <i>"{{user_input.upper()}}"</i></h2>
+
+    {% if not posts %}
+        <p><strong>Ничего не найдено:(</strong></p>
+        <img src='/uploads/images/sad_cat.jpg' width="100%" alt="котик">
+
+    {% else %}
+        {% for post in posts %}
+        <div class="post">
+          <img src={{post.pic}} width="100%" alt="картинка">
+           <p>{{post.content}}</p>
+        </div>
+        <hr>
+        {% endfor %}
+    {% endif %}
+
+</main>
+</body>
+</html>
+

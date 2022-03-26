@@ -1,8 +1,11 @@
 /* Селекторы по тегам */
 
 body {
+    background-color: #ffeaef;
     font-family: arial;
     font-size: 18px;
+    color: #A52A2A;
+    font: "Times New Roman", Times, serif;
 }
 
 main {
@@ -12,6 +15,10 @@ main {
 
 hr {
     margin: 32px 0;
+    color: pink;
+    background-color: pink;
+    border: none;
+    height: 2px;
 }
 
 select {
@@ -26,11 +33,14 @@ input[type=text] {
     padding: 8px;
     position: relative;
     top: -2px;
+    border-width: 2px;
+    border-color: hotpink;
 }
 
 textarea {
     width: 100%;
     margin-bottom: 16px;
+    background-color: #f3fffb;
 }
 
 input[type=file] {
@@ -48,13 +58,19 @@ a {
 /* Селекторы по классам */
 
 .button {
-    background-color: #ddd;
+    background-color: #DB7093;
     padding: 8px 16px;
     text-decoration: none;
-    color: black;
+    color: #fffcfc;
     border:none;
     border-radius: 4px;
     font-size: 18px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #7FFFD4;
+  color: white;
 }
 
 

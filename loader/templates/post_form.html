@@ -8,18 +8,18 @@
 <body>
 <main>
 
-    <a href="index.html" class="link">Назад</a>
+    <a href="/" class="link">Назад</a>
 
     <h1>Добавить пост</h1>
 
-    <form action="post_uploaded.html" method="POST" enctype="multipart/form-data">
-        <p>Картинка к посту</p>
+    <form action="/post/new-post" method="POST" enctype="multipart/form-data">
+        <p>Выбрать картинку</p>
         <div>
             <input type="file" name="picture">
         </div>
-        <p>Текст к посту</p>
+        <p>Добавить запись</p>
         <div>
-            <textarea name="content" rows="5" ></textarea>
+            <textarea placeholder='Добавить подпись к посту' name="content" rows="5" ></textarea>
         </div>
 
         <div>
