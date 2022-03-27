@@ -8,7 +8,7 @@ post_loader_blueprint = Blueprint('post_loader', __name__, template_folder='temp
 
 
 @post_loader_blueprint.route('/uploads/<path:path>')
-def statis_dir(path):
+def images_dir(path):
     return send_from_directory('uploads', path)
 
 

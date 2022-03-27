@@ -9,7 +9,7 @@ logging.basicConfig(filename='basic.log', level=logging.INFO)
 
 
 @main_blueprint.route('/uploads/<path:path>')
-def statis_dir(path):
+def images_dir(path):
     return send_from_directory('uploads', path)
 
 

@@ -54,5 +54,9 @@
     {
         "pic": "./uploads/images/puppy_h.jpg",
         "content": "щеночек"
+    },
+    {
+        "pic": "./uploads/images/20190704_134707.jpg",
+        "content": "a bird"
     }
 ]
