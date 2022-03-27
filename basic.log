@@ -1116,3 +1116,73 @@ INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:08:48] "[36mGET /static/style.css H
 INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:08:50] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:08:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:08:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-619-080
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-619-080
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-619-080
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:53:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:53:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:53:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск по запросу утром
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:53:44] "GET /search?s=утром HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:53:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:53:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:53:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:53:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:53:47] "[32mGET /post HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:53:47] "GET /post/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:53:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:53:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:53:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 21:53:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 09:25:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 09:25:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 09:25:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Поиск по запросу утром
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 11:57:40] "GET /search?s=утром HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 11:57:40] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-619-080
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:07:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:07:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:07:58] "[32mGET /post HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:07:58] "GET /post/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:07:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Загруженный файл - не картинка
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:08:04] "[35m[1mPOST /post/new-post HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:08:04] "GET /post/new-post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:08:04] "GET /post/new-post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:08:04] "GET /post/new-post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:08:04] "GET /post/new-post?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-619-080
+INFO:root:Загруженный файл - не картинка
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:09:30] "POST /post/new-post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:09:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:09:30] "[36mGET /post/uploads/images/sad_cat.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:09:32] "[32mGET /post HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:09:32] "GET /post/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:09:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Загруженный файл - не картинка
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:09:33] "POST /post/new-post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:09:33] "[36mGET /post/uploads/images/sad_cat.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:09:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:09:37] "[32mGET /post HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:09:37] "GET /post/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:09:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Загруженный файл - не картинка
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:09:45] "POST /post/new-post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:09:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2022 13:09:45] "[36mGET /post/uploads/images/sad_cat.jpg HTTP/1.1[0m" 304 -

@@ -28,7 +28,7 @@ def upload_post():
         text = request.form.get('content')
         functions.add_new_post_into_database(pic_path, text, functions.POST_PATH)
     else:
-        path = './uploads/images/sad_cat.jpg'
+        pic_path = './uploads/images/sad_cat.jpg'
         text = 'Попробуйте загрузить другую картинку'
         logging.info('Загруженный файл - не картинка')
     return render_template('post_uploaded.html',
