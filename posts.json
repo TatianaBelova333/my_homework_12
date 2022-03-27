@@ -46,5 +46,13 @@
     {
         "pic": "./uploads/images/nature.jpeg",
         "content": "relaxing in the countryside"
+    },
+    {
+        "pic": "./uploads/images/ny_image_01.jpg",
+        "content": "New York City "
+    },
+    {
+        "pic": "./uploads/images/puppy_h.jpg",
+        "content": "щеночек"
     }
 ]

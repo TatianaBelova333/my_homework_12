@@ -3,7 +3,6 @@ from json.decoder import JSONDecodeError
 
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
-POSTS = []
 POST_PATH = "posts.json"
 
 
@@ -15,7 +14,6 @@ def is_filename_allowed(filename):
 
 
 def load_json_data(filename=POST_PATH):
-    global POSTS
     try:
         with open(filename, 'r', encoding='utf') as file:
             data = json.load(file)
@@ -25,16 +23,15 @@ def load_json_data(filename=POST_PATH):
         return None
 
 
-
 def add_new_post_into_database(pic_path, post_text, filename=POST_PATH):
-    global POSTS
+    posts = load_json_data(filename=POST_PATH)
     new_post = {'pic': pic_path, 'content': post_text}
-    POSTS.append(new_post)
+    posts.append(new_post)
     with open(filename, 'w') as file:
-        json.dump(POSTS, file, ensure_ascii=False, indent=4)
+        json.dump(posts, file, ensure_ascii=False, indent=4)
 
 
-def search_for_user_input(user_input, posts=POSTS):
+def search_for_user_input(user_input, posts):
     matched_posts = []
     user_input = user_input.strip().lower()
     try:
